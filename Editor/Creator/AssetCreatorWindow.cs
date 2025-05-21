@@ -7,7 +7,7 @@ using JetBrains.Annotations;
 using UnityEditor;
 using UnityEngine;
 
-namespace Lib.BatnipCreator
+namespace Editor.Creator
 {
     public class AssetCreatorWindow : BaseCreatorWindow
     {

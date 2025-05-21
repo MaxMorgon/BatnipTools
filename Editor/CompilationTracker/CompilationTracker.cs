@@ -8,7 +8,7 @@ using UnityEditor.Compilation;
 using UnityEngine;
 using UnityToolbarExtender;
 
-namespace MetalBall.EditorTools
+namespace Editor.CompilationTracker
 {
     [InitializeOnLoad]
     public static class CompilationTracker
@@ -132,7 +132,7 @@ namespace MetalBall.EditorTools
 
         private static void InitializeGUI()
         {
-            ToolbarExtender.RightToolbarGUI.Add(OnIndicatorGUI);
+            ToolbarExtender.LeftToolbarGUI.Add(OnIndicatorGUI);
             
             EditorApplication.update += OnEditorUpdate;
         }
@@ -161,8 +161,12 @@ namespace MetalBall.EditorTools
 
         private static void OnIndicatorGUI()
         {
-            if(indicatorTexture != null)
-                GUI.DrawTexture(new Rect(0, 0, INDICATOR_SIZE, INDICATOR_SIZE), indicatorTexture);
+            if (indicatorTexture != null)
+            {
+                GUILayout.FlexibleSpace();
+                var rect = EditorGUILayout.GetControlRect(false, GUILayout.Width(INDICATOR_SIZE), GUILayout.Height(INDICATOR_SIZE));
+                GUI.DrawTexture(rect, indicatorTexture);
+            }
         }
 
         private static IndicatorState GetIndicatorState()
