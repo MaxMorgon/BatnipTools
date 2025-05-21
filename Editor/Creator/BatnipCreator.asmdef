@@ -1,0 +1,6 @@
+﻿{
+  "name": "BatnipCreator",
+  "includePlatforms": [
+    "Editor"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+	"name":"net.batnip.life-quality-u",
+	"version": "0.0.1",
+	"displayName": "Batnip Tools",
+	"description": "Quality of life tools for Unity's editor.",
+	"author":{
+		"name": "Iddo Adar",
+		"email": "maxmorgon@gmail.com",
+		"url": "www.batnip.net"
+	}, 
+	"keywords": [
+		"creator",
+		"compilation",
+		"tracker"
+	]
+}
