@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 using UnityEditor;
 using UnityEngine;
 
-namespace Editor.Creator
+namespace BatnipTools.Creator
 {
     public abstract class BaseCreatorWindow : EditorWindow
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace Editor.Creator
+namespace BatnipTools.Creator
 {
     public class SceneCreatorWindow : BaseCreatorWindow
     {

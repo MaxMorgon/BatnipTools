@@ -8,7 +8,7 @@ using UnityEditor.Compilation;
 using UnityEngine;
 using UnityToolbarExtender;
 
-namespace Editor.CompilationTracker
+namespace BatnipTools.CompilationTracker
 {
     [InitializeOnLoad]
     public static class CompilationTracker
