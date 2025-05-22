@@ -1,4 +1,4 @@
-# 🧰 Unity Editor Tools
+# 🧰 Batnip Unity Editor Tools
 
 A small Unity package with editor productivity tools to improve your workflow. Includes a custom toolbar extender, quick object creation utility, and a visual compilation reminder.
 
